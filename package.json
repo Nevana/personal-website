@@ -1,0 +1,23 @@
+{
+  "name": "peronal-website",
+  "version": "1.0.0",
+  "description": "simple version of my personal website based on nodejs &amp; express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nevana/peronal-website.git"
+  },
+  "author": "nevana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nevana/peronal-website/issues"
+  },
+  "homepage": "https://github.com/Nevana/peronal-website#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
