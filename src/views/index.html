@@ -7,6 +7,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon.ico">
     <!-- Mobile Support -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- load icons based css -->
+    <link rel="stylesheet" href="assets/css/all.css" rel="stylesheet">
+    <!-- load icons based js -->
+    <script defer src="assets/js/all.js"></script>
     <!-- w3css-->
     <link rel="stylesheet" href="assets/css/w3.css">
     <!-- google Font-->
@@ -17,16 +21,13 @@
     <script type="text/javascript" src="assets/js/custom.js"></script>
     <!-- custom css import -->
     <link rel="stylesheet" href="assets/css/custom.css">
-    <!-- load icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
 <body style="font-family: 'Open Sans', monospace; font-size: 20px;">
     <div class="w3-top" style="z-index: 5;">
         <div class="w3-bar" id="myNavbar">
-            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
-                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+                onclick="toggleFunction()" title="Toggle Navigation Menu">
                 <i class="fa fa-bars"></i>
             </a>
             <a href="#homeScreen" class="w3-bar-item w3-button "><i class="fas fa-home"></i></a>
@@ -53,44 +54,44 @@
                     class="w3-small w3-hide-small">IT-Specialist</span></span>
         </div>
     </div>
-    <div class="w3-padding-32">
-        <div class="w3-content w3-container" id="about" style="font-size: 15px;">
-            <h2 class="w3-center">About Me</h2>
-            <h4 class="w3-center">I love everything that has to do with computer science!</h4>
-            <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <div class="w3-row">
-                <div class="w3-col m6 w3-center w3-padding-large">
-                    <p><b><i class="fa fa-user w3-margin-right"></i>Tim Harpe</b></p>
-                    <img src="/assets/img/avatar.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
-                        alt="Photo of Me" width="200" height="400">
-                </div>
-                <div class="w3-col m6 w3-hide-small w3-padding-large">
-                    <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                        laborum
-                        consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
+    <div class="w3-content w3-container w3-padding-32">
+        <div style="position: relative; height: 0px; top: -52px;" id="about"></div>
+        <h2 class="w3-center">About Me</h2>
+        <h4 class="w3-center">I love everything that has to do with computer science!</h4>
+        <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+            in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa
+            qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"></i>Tim Harpe</b></p>
+                <img src="/assets/img/avatar.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
+                    alt="Photo of Me" width="200" height="400">
+            </div>
+            <div class="w3-col m6 w3-hide-small w3-padding-large">
+                <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum
+                    consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
     </div>
-    <div class="w3-dark-gray  w3-padding-32">
-        <div class="w3-content w3-container" id="timeline" style="font-size: 15px;">
+    <div class="w3-dark-gray">
+        <div class="w3-content w3-container w3-padding-32">
+            <div style="position: relative; height: 0px; top: -52px;" id="timeline"></div>
             <h2 class="w3-center">Timeline</h2>
             <h4 class="w3-center">See what I did in my life</h4>
             <div class="containerTimeline">
@@ -152,23 +153,23 @@
             </div>
         </div>
     </div>
-    <div class="w3-padding-32">
-        <div class="w3-content w3-container" id="work" style="font-size: 15px;">
-            <h2 class="w3-center">Work</h2>
-            <h4 class="w3-center">My fulltime Job</h4>
-            <p>Bla bla über mein job und die schule ide ich mache und zukunftaussichten Welcome to my website. I am
-                lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
+    <div class="w3-content w3-container w3-padding-32">
+        <div style="position: relative; height: 0px; top: -52px;" id="work"></div>
+        <h2 class="w3-center">Work</h2>
+        <h4 class="w3-center">My fulltime Job</h4>
+        <p>Bla bla über mein job und die schule ide ich mache und zukunftaussichten Welcome to my website. I am
+            lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
-    <div class="w3-dark-gray w3-padding-32">
-        <div class="w3-content w3-container" id="projects" style="font-size: 15px;">
+    <div class="w3-dark-gray">
+        <div class="w3-content w3-container w3-padding-32">
+            <div style="position: relative; height: 0px; top: -52px;" id="projects"></div>
             <h2 class="w3-center">PROJECTS</h2>
             <h4 class="w3-center">Actual things I am working on.</h4>
             <table class="w3-table w3-bordered w3-light-grey">
@@ -195,18 +196,19 @@
             </table>
         </div>
     </div>
-    <div class="w3-padding-32">
-        <div class="w3-content w3-container w3-padding-32" id="future" style="font-size: 15px;">
-            <h2 class="w3-center">FUTURE Ventures</h2>
-            <h4 class="w3-center">What I am interested in.</h4>
-            <ul>
-                <li>Expand nodeJS experiance (npm etc.)</li>
-                <li>Idea behind CI/CD, integrate in workflow</li>
-                <li>Scalable distributed systems (infrastructure, networks, microservices)</li>
-                <li>Blockchain</li>
-                <li>DNS SEC</li>
-            </ul>
-        </div>
+    <div class="w3-content w3-container w3-padding-32">
+        <div style="position: relative; height: 0px; top: -52px;" id="future"></div>
+        <h2 class="w3-center">FUTURE Ventures</h2>
+        <h4 class="w3-center">What I am interested in.</h4>
+        <ul>
+            <li>Expand nodeJS experiance (npm etc.)</li>
+            <li>Idea behind CI/CD, integrate in workflow</li>
+            <li>Scalable distributed systems (infrastructure, networks, microservices)</li>
+            <li>Blockchain</li>
+            <li>DNS SEC</li>
+            <li>Cloud platforms like openstack</li>
+            <li>Why Kubernetes and not docker-swarm</li>
+        </ul>
     </div>
     <footer class="w3-center w3-dark-gray w3-padding-64">
         <a class="w3-button w3-light-grey" onclick="totopFunction()"><i class="fa fa-arrow-up w3-margin-right"></i>To

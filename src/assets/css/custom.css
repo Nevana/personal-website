@@ -3,6 +3,10 @@ body, html {
     color: #777;
     line-height: 1.8;
 }
+div.w3-container {
+   font-size: 15px;
+}
+/* picture on load */
 .bgimg-1 {
     background-attachment: fixed;
     background-position: center;
@@ -11,6 +15,7 @@ body, html {
     background-image: url('/assets/img/background.jpg');
     min-height: 100%;
 }
+/* picture on load scale */
 @media only screen and (max-device-width: 1600px) {
     .bgimg-1 {
       background-attachment: scroll;
@@ -65,7 +70,7 @@ body, html {
     height: 16px;
     border-radius: 50%;
     border: 2px solid #F5F7FA;
-    background: rgb(255, 0, 0);
+    background: rgb(50, 132, 255);
     margin-top: 10px;
     z-index: 2
  }
