@@ -29,72 +29,130 @@
                 href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
                 <i class="fa fa-bars"></i>
             </a>
-            <a href="" class="w3-bar-item w3-button ">Home</a>
-            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="far fa-user"></i> ABOUT</a>
-            <a href="#work" class="w3-bar-item w3-button w3-hide-small"><i class="far fa-building"></i> WORK</a>
-            <a href="#projects" class="w3-bar-item w3-button w3-hide-small"><i class="far fa-file"></i> PROJECTS</a>
-            <a href="#future" class="w3-bar-item w3-button w3-hide-small"><i class="far fa-file"></i> FUTURE</a>
-            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="far fa-address-book"></i>
+            <a href="#homeScreen" class="w3-bar-item w3-button "><i class="fas fa-home"></i></a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-user"></i> ABOUT</a>
+            <a href="#work" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-building"></i> WORK</a>
+            <a href="#timeline" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-stream"></i> Timeline</a>
+            <a href="#projects" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-project-diagram"></i>
+                PROJECTS</a>
+            <a href="#future" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-th-list"></i> FUTURE</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-address-book"></i>
                 CONTACT</a>
         </div>
         <div id="smallNavbar" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-            <a href="" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-            <a href="" class="w3-bar-item w3-button" onclick="toggleFunction()">WORK</a>
-            <a href="" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
-            <a href="" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="#work" class="w3-bar-item w3-button" onclick="toggleFunction()">WORK</a>
+            <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
+            <a href="#future" class="w3-bar-item w3-button" onclick="toggleFunction()">FUTURE</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
         </div>
     </div>
-    <!-- First Parallax Image with Logo Text -->
     <div class="bgimg-1 w3-display-container w3-opacity-min" id="homeScreen">
         <div class="w3-display-middle" style="white-space:nowrap;">
             <span class="w3-center w3-padding-large w3-black w3-xxlarge w3-wide w3-animate-opacity">Tim Harpe <span
                     class="w3-small w3-hide-small">IT-Specialist & Software Engineer</span></span>
         </div>
     </div>
-    <div class="w3-content w3-container" id="about" style="font-size: 15px;">
-        <h2 class="w3-center">About Me</h2>
-        <h4 class="w3-center">I love everything that has to do with computer science!</h4>
-        <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa
-            qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <div class="w3-row">
-            <div class="w3-col m6 w3-center w3-padding-large">
-                <p><b><i class="fa fa-user w3-margin-right"></i>Tim Harpe</b></p>
-                <img src="/assets/img/avatar.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
-                    alt="Photo of Me" width="200" height="400">
-            </div>
-            <div class="w3-col m6 w3-hide-small w3-padding-large">
-                <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                    consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-        </div>
-    </div>
-    <div class="w3-dark-gray">
-        <div class="w3-container" id="timeline" style="font-size: 15px;">
-            <h2 class="w3-center">Timeline</h2>
-            <h4 class="w3-center">A list of work experiences I have done.</h4>
-            <div class="w3-content w3-container">
-                <button class="w3-button w3-red" onclick="myProgress()" id="desire">Desire my life</button>
-                <div class="w3-light-grey">
-                    <div id="myProgress" class="w3-blue" style="height:24px;width:0%;"></div>
+    <div class="w3-padding-32">
+        <div class="w3-content w3-container" id="about" style="font-size: 15px;">
+            <h2 class="w3-center">About Me</h2>
+            <h4 class="w3-center">I love everything that has to do with computer science!</h4>
+            <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="w3-row">
+                <div class="w3-col m6 w3-center w3-padding-large">
+                    <p><b><i class="fa fa-user w3-margin-right"></i>Tim Harpe</b></p>
+                    <img src="/assets/img/avatar.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
+                        alt="Photo of Me" width="200" height="400">
+                </div>
+                <div class="w3-col m6 w3-hide-small w3-padding-large">
+                    <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum
+                        consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
             </div>
-            <h4 class="w3-center" id="myLifeDesc"></h4>
         </div>
     </div>
-    <div>
+    <div class="w3-dark-gray  w3-padding-32">
+        <div class="w3-content w3-container" id="timeline" style="font-size: 15px;">
+            <h2 class="w3-center">Timeline</h2>
+            <h4 class="w3-center">See what I did in my life</h4>
+            <div class="containerTimeline">
+                <div class="timeline-block timeline-block-right">
+                    <div class="marker"></div>
+                    <div class="timeline-content">
+                        <h3>2005</h3>
+                        <span>Elementary School</span>
+                        <p>Started the elementary school in Lorsch, Germany @Wingertsberg School and finished
+                            successfully 2009</p>
+                    </div>
+                </div>
+                <div class="timeline-block timeline-block-left">
+                    <div class="marker"></div>
+                    <div class="timeline-content">
+                        <h3>2009</h3>
+                        <span>Middle School</span>
+                        <p>Started the middle school in Lorsch, Germany @Werner-von-Siemens-School and finished
+                            successfully 2015 with an average of 1,5</p>
+                    </div>
+                </div>
+                <div class="timeline-block timeline-block-right">
+                    <div class="marker"></div>
+                    <div class="timeline-content">
+                        <h3>2015</h3>
+                        <span>Education IT-Specialist</span>
+                        <p>Started an education as IT-Specialist Darmstadt, Germany @Deutsche Telekom AG and finished
+                            successfully in winter 2018 with [83/100] points</p>
+                    </div>
+                </div>
+                <div class="timeline-block timeline-block-left">
+                    <div class="marker"></div>
+                    <div class="timeline-content">
+                        <h3>2017</h3>
+                        <span>Internship at Strong Answer</span>
+                        <p>Intership @<a href="https://www.strong-answer.com/">Strong Aswer</a> Lagoa, Portugal to
+                            expand my englisch skills and get first experiances with web-development</p>
+                    </div>
+                </div>
+                <div class="timeline-block timeline-block-right">
+                    <div class="marker"></div>
+                    <div class="timeline-content">
+                        <h3>2018</h3>
+                        <span>Work Experiances</span>
+                        <p>I applied for a job after my education @SST-IT Services AG Frankfurt, Germany. Work in
+                            Projects for other companies. At the moment I for the IT departement of the government
+                            (ITZ-BUND). For more informatiosn watch WORK section below</p>
+                    </div>
+                </div>
+                <div class="timeline-block timeline-block-left">
+                    <div class="marker"></div>
+                    <div class="timeline-content">
+                        <h3>2018</h3>
+                        <span>Highschool</span>
+                        <p>In 2018 I decited to catch up my highschool graduation. So I work for the government in the
+                            morning and in the evening I go to school and finish my school part</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w3-padding-32">
         <div class="w3-content w3-container" id="work" style="font-size: 15px;">
             <h2 class="w3-center">Work</h2>
             <h4 class="w3-center">My fulltime Job</h4>
@@ -109,51 +167,55 @@
                 ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
     </div>
-    <div class="w3-content w3-container" id="projects" style="font-size: 15px;">
-        <h2 class="w3-center">PROJECTS</h2>
-        <h4 class="w3-center">Actual things I am working on.</h4>
-        <table class="w3-table-all">
-            <tr>
-                <th>Title</th>
-                <th>Description</th>
-                <th>Technology</th>
-            </tr>
-            <tr>
-                <td>Personal Website</td>
-                <td>Everyone needs an internet presence. One pager based on nodeJs</td>
-                <td>Js-Front/Backend, Html, CSS</td>
-            </tr>
-            <tr>
-                <td>Docker Cluster and HA-Services</td>
-                <td>Docker-Swarm Cluster with >3 RPI Nodes. HA-Website and DB</td>
-                <td>RPI-Jessi Light,Docker-Swarm, HTML, JS, CSS, MSQL</td>
-            </tr>
-            <tr>
-                <td>Nginx Reverse Proxy</td>
-                <td>Reverse Proxy for the Docker-Swarm Cluster</td>
-                <td>Nginx, Network Knowledge, DNS, DHCP, VLSM</td>
-            </tr>
-        </table>
+    <div class="w3-dark-gray w3-padding-32">
+        <div class="w3-content w3-container" id="projects" style="font-size: 15px;">
+            <h2 class="w3-center">PROJECTS</h2>
+            <h4 class="w3-center">Actual things I am working on.</h4>
+            <table class="w3-table w3-bordered w3-light-grey">
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Technology</th>
+                </tr>
+                <tr>
+                    <td>Personal Website</td>
+                    <td>Everyone needs an internet presence. One pager based on nodeJs</td>
+                    <td>Js-Front/Backend, Html, CSS</td>
+                </tr>
+                <tr>
+                    <td>Docker Cluster and HA-Services</td>
+                    <td>Docker-Swarm Cluster with >3 RPI Nodes. HA-Website and DB</td>
+                    <td>RPI-Jessi Light,Docker-Swarm, HTML, JS, CSS, MSQL</td>
+                </tr>
+                <tr>
+                    <td>Nginx Reverse Proxy</td>
+                    <td>Reverse Proxy for the Docker-Swarm Cluster</td>
+                    <td>Nginx, Network Knowledge, DNS, DHCP, VLSM</td>
+                </tr>
+            </table>
+        </div>
     </div>
-    <div class="w3-content w3-container w3-padding-32" id="future" style="font-size: 15px;">
-        <h2 class="w3-center">FUTURE Ventures</h2>
-        <h4 class="w3-center">What I am interested in.</h4>
-        <ul>
-            <li>Expand nodeJS experiance (npm etc.)</li>
-            <li>Idea behind CI/CD, integrate in workflow</li>
-            <li>Scalable distributed systems (infrastructure, networks, microservices)</li>
-            <li>Blockchain</li>
-            <li>DNS SEC</li>
-        </ul>
+    <div class="w3-padding-32">
+        <div class="w3-content w3-container w3-padding-32" id="future" style="font-size: 15px;">
+            <h2 class="w3-center">FUTURE Ventures</h2>
+            <h4 class="w3-center">What I am interested in.</h4>
+            <ul>
+                <li>Expand nodeJS experiance (npm etc.)</li>
+                <li>Idea behind CI/CD, integrate in workflow</li>
+                <li>Scalable distributed systems (infrastructure, networks, microservices)</li>
+                <li>Blockchain</li>
+                <li>DNS SEC</li>
+            </ul>
+        </div>
     </div>
-    <footer class="w3-center w3-black w3-padding-64">
-        <a href="" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-        <div class="w3-xlarge w3-section">
-            <i class="fab fa-github-square"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-linkedin-in"></i>
-            <i class="fab fa-xing"></i>
-            <i class="fas fa-envelope-square"></i>
+    <footer class="w3-center w3-dark-gray w3-padding-64">
+        <a class="w3-button w3-light-grey" onclick="totopFunction()"><i class="fa fa-arrow-up w3-margin-right"></i>To
+            the top</a>
+        <div class="w3-xxlarge w3-section" id="contact">
+            <a href="https://github.com/Nevana" target="_blank"><i class="fab fa-github-square"></i></a>
+            <a href="https://www.linkedin.com/in/tim-harpe/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.xing.com/profile/Tim_Harpe2" target="_blank"><i class="fab fa-xing-square"></i></a>
+            <a href="mailto:tim.harpe@t-online.de" target="_blank"><i class="fas fa-envelope-square"></i></a>
         </div>
     </footer>
 </body>
