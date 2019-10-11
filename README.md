@@ -1,18 +1,15 @@
 # peronal-website
-simple version of my personal website based on nodejs &amp; express &amp; docker
+
+- simple version of my personal website based on nodejs &amp; express &amp; docker
+
 # Get started
-* Clone the repository to you server
 
-* navigate into the directory
+- clone the repository to you server
 
-* install nodejs
+- navigate into the directory
 
-* if your are in the root directory of your download type "npm install" for dependencies
+- run `docker build -t $yourImageName .` to build an image
 
-* generate a ssl certificate
+- run `docker run -d --name $yourConatinerName $yourImageName` to start the website on port 8080
 
-    * copy the two files to "src/assets/ssl/"
-    * modify in server.js  `let key = fs.readFileSync(__dirname + '/your/key/path/key.key');`
-    * and in server.js `let cert = fs.readFileSync(__dirname + '/your/csr/path/csr.csr');`
-
-* start the server with "npm start"
+- Open your browser on `ip:8080` or `localhost:8080`
