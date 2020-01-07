@@ -9,6 +9,6 @@ RUN npm install
 #Copy the app source code
 COPY . .
 #Open port in contaiener
-EXPOSE 80
+EXPOSE 8080
 #Start node service
 CMD [ "npm", "start" ]
