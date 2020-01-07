@@ -16,6 +16,4 @@
 
 - run `docker-compose up --build -d` to start the container
 
-  - make sure that no conatiner ist liston on port `8080`
-
 - open your domain in browser `www.domain.com`
