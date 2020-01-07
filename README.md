@@ -8,8 +8,8 @@
 
 - navigate into the directory
 
-- run `docker build -t $yourImageName .` to build an image
+- run `docker-compose up --build -d` to start the container
 
-- run `docker run -d --name $yourConatinerName $yourImageName` to start the website on port 8080
+  - make sure that no conatiner ist liston on port `8080`
 
 - Open your browser on `ip:8080` or `localhost:8080`
