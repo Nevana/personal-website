@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/Nevana/peronal-website#readme",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
     "openssl": "^1.1.0"
   }
 }
