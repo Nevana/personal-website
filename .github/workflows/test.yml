@@ -13,7 +13,7 @@ jobs:
       - name: Deploy to Docker Host
         uses: wshihadeh/docker-deployment-action@v1
         with:
-          remote_docker_host: root@timharpe.xyz
+          remote_docker_host: root@116.203.41.195
           ssh_private_key: ${{ secrets.PRIV_KEY }}
           ssh_public_key: ${{ secrets.PUB_KEY }}
           deployment_mode: docker-compose
