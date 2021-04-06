@@ -10,14 +10,14 @@ jobs:
       - name: Build the stack
         run: docker-compose up -d
 
-      - name: Deploy to Docker Host
-        uses: wshihadeh/docker-deployment-action@v1
-        with:
-          remote_docker_host: root@116.203.41.195
-          ssh_private_key: ${{ secrets.PRIV_KEY }}
-          ssh_public_key: ${{ secrets.PUB_KEY }}
-          deployment_mode: docker-compose
-          args: up -d
-          pre_deployment_command_args: 'bundle exec rake db:migrate'
-          docker_prune: 'true'
-          pull_images_first: 'true'
+      # - name: Deploy to Docker Host
+      #   uses: wshihadeh/docker-deployment-action@v1
+      #   with:
+      #     remote_docker_host: root@116.203.41.195
+      #     ssh_private_key: ${{ secrets.PRIV_KEY }}
+      #     ssh_public_key: ${{ secrets.PUB_KEY }}
+      #     deployment_mode: docker-compose
+      #     args: up -d
+      #     pre_deployment_command_args: 'bundle exec rake db:migrate'
+      #     docker_prune: 'true'
+      #     pull_images_first: 'true'
